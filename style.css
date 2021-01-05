@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/patternpic.jpg)
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+h1, h2, h3, h4 {
+  color: #22007c;
+}
+
+.wrapper {
+	width: 750px;
+	margin: auto;	
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  margin: 15px;
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 3px;
+  border: 1px solid #22007c;
+  padding: 7px;
+  font-size: 12px;
+}
+
+main section p {
+  font-size: 14px;
+}
+
+header nav a:link    { color: rgb(0, 0, 0);  }
+header nav a:visited { color: rgb(0, 0, 0);   }
+header nav a:hover   { color: rgb(255, 0, 0); }
+header nav a:active  { color: rgb(164, 0, 214);  }
+
+ul li a {
+  text-decoration: none;
+}
+
+h1 {font-family: "Open Sans", 'Times New Roman', Times, serif}
+h2 {font-family: "Open Sans", 'Times New Roman', Times, serif}
+h3 {font-family: "Open Sans", 'Times New Roman', Times, serif}
+h4 {font-family: "Open Sans", 'Times New Roman', Times, serif}
+p {font-family: "Open Sans", 'Times New Roman', Times, serif}
+li {font-family: "Open Sans", 'Times New Roman', Times, serif}
+
+img {
+  width: 100%;
+}
+
+.image-width-30 {
+  width: 30%;
+}
+
+.image-width-50 {
+  width: 50%;
+}
+
+.image-width-70 {
+  width: 70%;
+}
+
+.flexnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  color:beige;
+  height: 50px;
+}
+
+nav a:link    { color: blue;  }
+nav a:visited { color: red;   }
+nav a:hover   { color: green; }
+nav a:active  { color: pink;  }
+
+
+form label {
+  display: block;
+  font-family:  "Open Sans", 'Times New Roman', Times, serif
+}
+
+form input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+form textarea {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+form textarea {
+  height: 150px;
+  width: 200px;
+}
